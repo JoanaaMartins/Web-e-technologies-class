@@ -1,0 +1,28 @@
+body{ 
+    background-color: #ffffff; 
+    color: #1a1a1a; 
+    font-family: "Poppins";  
+    font-size: 19px;
+    overflow-x: hidden;
+} 
+.hero{ 
+    padding: 80px; 
+} 
+
+.hero_card{ 
+   padding: 30px 14px;  
+   border-radius: 20px; 
+   box-shadow: 5px 4px 30px 0px rgba(0,0,0,0.10); 
+   width: fit-content;
+} 
+.hero_icon{ 
+    margin-bottom: 10px;
+} 
+.hero_card_headline{ 
+    font-size: 20px;
+    font-weight: bold; 
+    margin: 10px ;
+} 
+.hero_card_paragraph{ 
+    font-size: 16px;
+}

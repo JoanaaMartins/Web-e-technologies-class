@@ -1,0 +1,49 @@
+body{ 
+    background-color:#e2dcff;  
+    color:#1a1a1a;
+    font-family:"Jost";  
+    font-size: 16px; 
+    overflow: hidden;
+}  
+
+::-webkit-scrollbar{ 
+    display: none;
+} 
+
+.blog { 
+  padding: 80px;
+}  
+
+.blog_wrapper{ 
+    max-width: 140px; 
+    margin: auto;
+}  
+
+.blog_tag{  
+    background-color: #e5dff4; 
+    border-radius: 100px; 
+    color: #7d5fff; 
+    padding: 4px 16px; 
+    margin: auto; 
+    width: fit-content;
+} 
+.blog_title{ 
+    color:#3d3269; 
+    font-size: 55px; 
+    max-width: 1024px; 
+    margin: 15px auto; 
+    text-align: center;
+} 
+ 
+.blog_vector{ 
+}  
+
+.blog_info{ 
+    font-size: 20px; 
+    text-align: center;
+}
+
+.blog_image{ 
+    border-radius: 40px; 
+    width: 100%;
+}

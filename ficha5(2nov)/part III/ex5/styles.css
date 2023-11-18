@@ -1,0 +1,35 @@
+body{ 
+    background-color: #1a1a1a; 
+    color:#ffffff; 
+    font-family: "Lexend"; 
+    font-size: 18px; 
+    font-weight: light; 
+    height: 150%;
+    overflow-x: hidden
+} 
+.hero{  
+    padding: auto;    
+} 
+
+.hero_headline{ 
+    color:#ffffff ; 
+    font-weight: 500; 
+    font-size: 48px;
+    max-width: 830px; 
+    margin-bottom: 10px;
+} 
+.hero_headline span { 
+   color: #CAFF33;
+} 
+
+.hero_paragraph{ 
+    max-width: 830px; 
+    color: #E4E4E7; 
+    margin-bottom: 40px;
+} 
+.hero_button{ 
+    color: #1C1C1C; 
+    background-color:#CAFF33 ; 
+    padding: 16px 24px; 
+    border-radius: 82px;
+}
