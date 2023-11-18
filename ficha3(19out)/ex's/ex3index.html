@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 3 ficha3 19out </title>
+</head>
+<body> 
+    <form action="action_page.php"> 
+        <label><br>Nome <input type="text" name="nome" placeholder="Escreva o seu nome "required></br></label>
+        <label><br>Email <input type="text" name="Email" placeholder="Escreva o seu email "required></br></label>
+        <label><br>Idade <input type="text" name="Idade"required></br></label>
+        <label><br>Data de nascimento <input type="datetime-local" name="nascimento"></br></label>
+        <label for="Nacionalidade"><br>Nacionalidade </label>
+        <select name="Nacionalidade" id="Nacionalidade"> 
+            <option value="portugual">Portuguesa</option> 
+            <option value="jamaica">Jamaicana</option> 
+            <option value="australia">Australiana</option> 
+            <option value="corea">Coreana</option> 
+            <option value="nigeri">Nigeriana</option> 
+            <option value="suecia">Sueca</option>
+        </select></body> 
+        <label><br>Palavra-passe <input type="text" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z].{8,})"required></br></label>
+        <input type="submit" value="Submeter formulário">
+    </form>
+    
+    
+</body>
+</html>
