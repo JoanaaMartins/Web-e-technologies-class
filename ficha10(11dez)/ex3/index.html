@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex3 ficha 10 11dez</title>
+</head>
+<body>
+    <script> 
+        function time(){ 
+          var now = new Date();
+          var hour = now.getHours(); 
+          var min = now.getMinutes(); 
+          var seconds = now.getSeconds(); 
+          
+          hour = hour<10 ? "0" + hour :hour; 
+          min = min <10 ? "0" + min :min;  
+          seconds = seconds <10 ? "0" + seconds : seconds; 
+           
+          var dateTime = hour +":"+ min + ":" + seconds; 
+          console.log(dateTime);
+        }  
+    
+        setInterval(time,2000);
+      </script>
+</body>
+</html>
